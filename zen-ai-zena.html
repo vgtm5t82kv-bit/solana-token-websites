@@ -1,0 +1,1299 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zen AI - $ZENA Token | Interactive Experience</title>
+    <meta name="description" content="Zen AI ($ZENA) - Powering the Next Generation of Web3. Establishing trustless protocols for peer-to-peer transactions">
+    <meta name="keywords" content="ZENA, Zen AI, Solana, cryptocurrency, token, DeFi, NFT, interactive, gamified">
+    <meta name="author" content="Zen AI">
+    <meta property="og:title" content="Zen AI ($ZENA) - Interactive Experience">
+    <meta property="og:description" content="Powering the Next Generation of Web3. Establishing trustless protocols for peer-to-peer transactions">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.tokenproject10.io">
+    <meta property="og:image" content="https://picsum.photos/200/300?random=4">
+    <link rel="canonical" href="https://www.tokenproject10.io">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2032%2032%22%3E%0A%20%20%20%20%20%20%3Ccircle%20cx%3D%2216%22%20cy%3D%2216%22%20r%3D%2215%22%20fill%3D%22url(%23favGradient)%22%2F%3E%0A%20%20%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%20%20%3ClinearGradient%20id%3D%22favGradient%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%2300FF4C%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%232E9CFF%22%2F%3E%0A%20%20%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%20%20%3Cpolygon%20points%3D%2216%2C8%2021%2C13%2019%2C20%2013%2C20%2011%2C13%22%20fill%3D%22white%22%2F%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2216%22%20y%3D%2228%22%20font-family%3D%22Arial%22%20font-size%3D%226%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%3E%F0%9F%8E%AE%3C%2Ftext%3E%0A%20%20%20%20%3C%2Fsvg%3E">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <style>
+      :root {
+  /* Primary Brand Colors */
+  --primary-50: #effff0;
+  --primary-100: #d9ffe1;
+  --primary-200: #b3ffc4;
+  --primary-300: #7dff9d;
+  --primary-400: #3dff6b;
+  --primary-500: #00ff4c;
+  --primary-600: #00db3d;
+  --primary-700: #00b833;
+  --primary-800: #008f2c;
+  --primary-900: #006622;
+  
+  /* Secondary Brand Colors */
+  --secondary-50: #f0f9ff;
+  --secondary-100: #dcf0ff;
+  --secondary-200: #bfe2ff;
+  --secondary-300: #8fd1ff;
+  --secondary-400: #59b8ff;
+  --secondary-500: #2e9cff;
+  --secondary-600: #1879ff;
+  --secondary-700: #0c5fff;
+  --secondary-800: #0e4be6;
+  --secondary-900: #103fbf;
+  
+  /* Accent Colors */
+  --accent-purple: #8b5cf6;
+  --accent-pink: #ec4899;
+  --accent-yellow: #f59e0b;
+  --accent-orange: #f97316;
+  
+  /* Neutral Colors */
+  --neutral-50: #f8fafc;
+  --neutral-100: #f1f5f9;
+  --neutral-200: #e2e8f0;
+  --neutral-300: #cbd5e1;
+  --neutral-400: #94a3b8;
+  --neutral-500: #64748b;
+  --neutral-600: #475569;
+  --neutral-700: #334155;
+  --neutral-800: #1e293b;
+  --neutral-900: #0f172a;
+  
+  /* Semantic Colors */
+  --success: #10b981;
+  --warning: #f59e0b;
+  --error: #ef4444;
+  --info: #3b82f6;
+  
+  /* Gradients */
+  --gradient-primary: linear-gradient(135deg, var(--primary-500), var(--secondary-500));
+  --gradient-secondary: linear-gradient(135deg, var(--accent-purple), var(--accent-pink));
+  --gradient-accent: linear-gradient(135deg, var(--accent-orange), var(--accent-yellow));
+  
+  /* Shadows */
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  
+  /* Typography */
+  --font-primary: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+  --font-heading: 'Space Grotesk', 'Inter', 'Helvetica Neue', Arial, sans-serif;
+  --font-mono: 'Fira Code', 'JetBrains Mono', monospace;
+  
+  /* Spacing */
+  --spacing-xs: 0.25rem;
+  --spacing-sm: 0.5rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 1.5rem;
+  --spacing-xl: 2rem;
+  --spacing-2xl: 3rem;
+  --spacing-3xl: 4rem;
+  
+  /* Border Radius */
+  --radius-sm: 0.25rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 0.75rem;
+  --radius-xl: 1rem;
+  --radius-full: 9999px;
+  
+  /* Transitions */
+  --transition-fast: 150ms ease-in-out;
+  --transition-normal: 300ms ease-in-out;
+  --transition-slow: 500ms ease-in-out;
+}
+
+/* Dark Theme Variables */
+[data-theme="dark"] {
+  --neutral-50: #0f172a;
+  --neutral-100: #1e293b;
+  --neutral-200: #334155;
+  --neutral-300: #475569;
+  --neutral-400: #64748b;
+  --neutral-500: #94a3b8;
+  --neutral-600: #cbd5e1;
+  --neutral-700: #e2e8f0;
+  --neutral-800: #f1f5f9;
+  --neutral-900: #f8fafc;
+}
+      /* Global Styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-primary);
+  background-color: var(--neutral-50);
+  color: var(--neutral-800);
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(0, 255, 76, 0.7);
+  }
+  70% {
+    transform: scale(1.02);
+    box-shadow: 0 0 0 10px rgba(0, 255, 76, 0);
+  }
+  100% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(0, 255, 76, 0);
+  }
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@keyframes gradientShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Header Styles */
+.token-header {
+  background: var(--gradient-primary);
+  background-size: 200% 200%;
+  animation: gradientShift 8s ease infinite;
+  color: white;
+  padding: var(--spacing-xl) var(--spacing-md);
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.token-header::before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 70%);
+  animation: rotate 20s linear infinite;
+  z-index: 0;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.token-name {
+  font-family: var(--font-heading);
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: var(--spacing-sm);
+  text-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  position: relative;
+  z-index: 1;
+}
+
+.token-symbol {
+  font-size: 1.5rem;
+  font-weight: 600;
+  background: rgba(255, 255, 255, 0.2);
+  padding: var(--spacing-xs) var(--spacing-md);
+  border-radius: var(--radius-full);
+  display: inline-block;
+  backdrop-filter: blur(10px);
+  margin-bottom: var(--spacing-lg);
+}
+
+.token-slogan {
+  font-size: 1.25rem;
+  max-width: 600px;
+  margin: 0 auto var(--spacing-md);
+  font-weight: 500;
+  position: relative;
+  z-index: 1;
+}
+
+/* Section Styles */
+.section {
+  padding: var(--spacing-2xl) var(--spacing-md);
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.section-title {
+  font-family: var(--font-heading);
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: var(--spacing-xl);
+  position: relative;
+  display: inline-block;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.section-title::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 4px;
+  background: var(--gradient-primary);
+  border-radius: var(--radius-full);
+}
+
+/* Card Styles */
+.card {
+  background: white;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-lg);
+  padding: var(--spacing-lg);
+  transition: transform var(--transition-normal), box-shadow var(--transition-normal);
+  margin-bottom: var(--spacing-lg);
+  position: relative;
+  overflow: hidden;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-xl);
+}
+
+.card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: var(--gradient-primary);
+}
+
+.card-title {
+  font-family: var(--font-heading);
+  font-size: 1.5rem;
+  margin-bottom: var(--spacing-md);
+  color: var(--neutral-800);
+}
+
+/* Token Info Grid */
+.token-info-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: var(--spacing-lg);
+  margin-bottom: var(--spacing-2xl);
+}
+
+.info-item {
+  display: flex;
+  align-items: center;
+  padding: var(--spacing-md);
+  background: var(--neutral-100);
+  border-radius: var(--radius-md);
+  transition: var(--transition-fast);
+}
+
+.info-item:hover {
+  background: var(--neutral-200);
+  transform: translateX(5px);
+}
+
+.info-icon {
+  width: 50px;
+  height: 50px;
+  background: var(--gradient-primary);
+  border-radius: var(--radius-full);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: var(--spacing-md);
+  flex-shrink: 0;
+}
+
+.info-icon svg {
+  width: 24px;
+  height: 24px;
+  fill: white;
+}
+
+.info-content h3 {
+  font-size: 1.1rem;
+  margin-bottom: var(--spacing-xs);
+  color: var(--neutral-800);
+}
+
+.info-content p {
+  font-size: 0.9rem;
+  color: var(--neutral-600);
+}
+
+/* Stats Section */
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: var(--spacing-lg);
+  margin: var(--spacing-xl) 0;
+}
+
+.stat-card {
+  text-align: center;
+  padding: var(--spacing-lg);
+  background: white;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+  transition: var(--transition-normal);
+}
+
+.stat-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-lg);
+}
+
+.stat-value {
+  font-size: 2rem;
+  font-weight: 700;
+  background: var(--gradient-primary);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: var(--spacing-xs);
+}
+
+.stat-label {
+  font-size: 1rem;
+  color: var(--neutral-600);
+  font-weight: 500;
+}
+
+/* Interactive Elements */
+.interactive-section {
+  background: var(--neutral-100);
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-xl);
+  margin: var(--spacing-2xl) 0;
+  position: relative;
+}
+
+.interactive-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: var(--gradient-secondary);
+  border-radius: var(--radius-lg) var(--radius-lg) 0 0;
+}
+
+.tabs {
+  display: flex;
+  border-bottom: 1px solid var(--neutral-300);
+  margin-bottom: var(--spacing-lg);
+}
+
+.tab {
+  padding: var(--spacing-md) var(--spacing-lg);
+  cursor: pointer;
+  font-weight: 500;
+  position: relative;
+  transition: var(--transition-fast);
+}
+
+.tab.active {
+  color: var(--primary-600);
+}
+
+.tab.active::after {
+  content: "";
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: var(--primary-500);
+  border-radius: var(--radius-full);
+}
+
+.tab-content {
+  display: none;
+}
+
+.tab-content.active {
+  display: block;
+  animation: fadeIn 0.5s ease forwards;
+}
+
+/* Chart Container */
+.chart-container {
+  height: 300px;
+  background: white;
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-lg);
+  box-shadow: var(--shadow-md);
+  margin: var(--spacing-lg) 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.chart-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  background: var(--neutral-100);
+  border-radius: var(--radius-md);
+  color: var(--neutral-500);
+  font-style: italic;
+}
+
+/* Button Styles */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--spacing-sm) var(--spacing-lg);
+  border-radius: var(--radius-md);
+  font-weight: 600;
+  cursor: pointer;
+  transition: var(--transition-fast);
+  border: none;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+.btn-primary {
+  background: var(--gradient-primary);
+  color: white;
+  box-shadow: var(--shadow-md);
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-lg);
+}
+
+.btn-secondary {
+  background: var(--neutral-200);
+  color: var(--neutral-800);
+}
+
+.btn-secondary:hover {
+  background: var(--neutral-300);
+}
+
+.btn-icon {
+  margin-right: var(--spacing-sm);
+}
+
+/* Social Links */
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: var(--spacing-md);
+  margin: var(--spacing-xl) 0;
+}
+
+.social-link {
+  width: 50px;
+  height: 50px;
+  border-radius: var(--radius-full);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--neutral-200);
+  color: var(--neutral-700);
+  transition: var(--transition-fast);
+  text-decoration: none;
+}
+
+.social-link:hover {
+  transform: translateY(-3px);
+  background: var(--gradient-primary);
+  color: white;
+  box-shadow: var(--shadow-md);
+}
+
+/* Footer */
+.token-footer {
+  background: var(--neutral-900);
+  color: white;
+  padding: var(--spacing-xl) var(--spacing-md);
+  text-align: center;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .token-name {
+    font-size: 2rem;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+  }
+  
+  .token-info-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .tabs {
+    flex-direction: column;
+  }
+}
+
+/* Animation Utilities */
+.animate-fade-in {
+  animation: fadeIn 0.8s ease forwards;
+}
+
+.animate-delay-1 {
+  animation-delay: 0.2s;
+}
+
+.animate-delay-2 {
+  animation-delay: 0.4s;
+}
+
+.animate-delay-3 {
+  animation-delay: 0.6s;
+}
+
+.animate-pulse {
+  animation: pulse 2s infinite;
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+      
+      /* Additional Game Styles */
+      .game-container {
+        background: var(--gradient-primary);
+        border-radius: var(--radius-lg);
+        padding: var(--spacing-lg);
+        margin: var(--spacing-xl) 0;
+        text-align: center;
+        box-shadow: var(--shadow-lg);
+        position: relative;
+        overflow: hidden;
+      }
+      
+      .game-container::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 4px;
+        background: var(--gradient-secondary);
+      }
+      
+      .game-title {
+        font-family: var(--font-heading);
+        color: white;
+        margin-bottom: var(--spacing-md);
+        text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+      }
+      
+      .game-board {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: var(--spacing-sm);
+        margin: var(--spacing-md) 0;
+      }
+      
+      .game-tile {
+        aspect-ratio: 1;
+        background: rgba(255, 255, 255, 0.2);
+        border-radius: var(--radius-md);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.5rem;
+        cursor: pointer;
+        transition: var(--transition-fast);
+        backdrop-filter: blur(5px);
+        border: 2px solid rgba(255, 255, 255, 0.3);
+      }
+      
+      .game-tile:hover {
+        background: rgba(255, 255, 255, 0.3);
+        transform: scale(1.05);
+      }
+      
+      .game-tile.revealed {
+        background: white;
+        color: var(--neutral-800);
+        transform: scale(1.05);
+      }
+      
+      .game-controls {
+        margin-top: var(--spacing-md);
+      }
+      
+      .score-display {
+        font-size: 1.2rem;
+        font-weight: 600;
+        color: white;
+        margin-bottom: var(--spacing-md);
+        text-shadow: 0 1px 2px rgba(0,0,0,0.3);
+      }
+      
+      /* Easter Egg Styles */
+      .easter-egg {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        width: 40px;
+        height: 40px;
+        background: var(--accent-pink);
+        border-radius: 50%;
+        cursor: pointer;
+        animation: bounce 2s infinite;
+        z-index: 1000;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-size: 1.5rem;
+      }
+      
+      @keyframes bounce {
+        0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+        40% {transform: translateY(-20px);}
+        60% {transform: translateY(-10px);}
+      }
+      
+      /* Interactive Elements */
+      .interactive-element {
+        background: var(--neutral-100);
+        border-radius: var(--radius-lg);
+        padding: var(--spacing-lg);
+        margin: var(--spacing-lg) 0;
+        cursor: pointer;
+        transition: var(--transition-fast);
+        position: relative;
+        overflow: hidden;
+      }
+      
+      .interactive-element:hover {
+        background: var(--neutral-200);
+        transform: translateY(-3px);
+      }
+      
+      .interactive-element::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 4px;
+        background: var(--gradient-accent);
+      }
+      
+      .interactive-title {
+        font-family: var(--font-heading);
+        margin-bottom: var(--spacing-sm);
+        color: var(--neutral-800);
+      }
+      
+      /* Fun Facts Carousel */
+      .fun-facts {
+        background: var(--gradient-secondary);
+        border-radius: var(--radius-lg);
+        padding: var(--spacing-lg);
+        margin: var(--spacing-xl) 0;
+        color: white;
+        text-align: center;
+        position: relative;
+        overflow: hidden;
+      }
+      
+      .fun-facts::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 4px;
+        background: var(--gradient-primary);
+      }
+      
+      .fact-item {
+        display: none;
+      }
+      
+      .fact-item.active {
+        display: block;
+        animation: fadeIn 0.5s ease;
+      }
+      
+      /* Responsive Adjustments */
+      @media (max-width: 768px) {
+        .game-board {
+          grid-template-columns: repeat(3, 1fr);
+        }
+        
+        .game-tile {
+          font-size: 1.2rem;
+        }
+      }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="token-header animate-fade-in">
+        <div class="token-logo animate-float">
+            <?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circle -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00FF4C;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2E9CFF;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="tokenGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8B5CF6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#EC4899;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3" result="blur"/>
+      <feFlood flood-color="#00FF4C" flood-opacity="0.5" result="glowColor"/>
+      <feComposite in="glowColor" in2="blur" operator="in" result="glow"/>
+      <feBlend in="SourceGraphic" in2="glow" mode="screen"/>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <circle cx="100" cy="100" r="95" fill="url(#bgGradient)" />
+  
+  <!-- Token Shape -->
+  <g filter="url(#glow)">
+    <polygon points="100,50 130,85 120,125 80,125 70,85" fill="url(#tokenGradient)" />
+    
+    <!-- Inner Details -->
+    <circle cx="100" cy="90" r="15" fill="white" opacity="0.3"/>
+    <circle cx="100" cy="90" r="8" fill="white" opacity="0.6"/>
+  </g>
+  
+  <!-- Animated Rings -->
+  <circle cx="100" cy="100" r="70" fill="none" stroke="white" stroke-width="2" stroke-dasharray="10,5" opacity="0.3">
+    <animateTransform attributeName="transform" type="rotate" from="0 100 100" to="360 100 100" dur="20s" repeatCount="indefinite"/>
+  </circle>
+  
+  <circle cx="100" cy="100" r="50" fill="none" stroke="white" stroke-width="1" stroke-dasharray="5,3" opacity="0.2">
+    <animateTransform attributeName="transform" type="rotate" from="360 100 100" to="0 100 100" dur="15s" repeatCount="indefinite"/>
+  </circle>
+</svg>
+        </div>
+        <h1 class="token-name">Zen AI</h1>
+        <div class="token-symbol">$ZENA</div>
+        <p class="token-slogan">Powering the Next Generation of Web3</p>
+        <div class="cta-buttons">
+            <a href="https://jup.ag/swap?tokens=SOL-So11111111111111111111111111111111111111112" class="btn btn-primary" target="_blank">
+                <span class="btn-icon">🛒</span> Buy on Jupiter
+            </a>
+            <a href="https://raydium.io/swap/?inputCurrency=SOL&outputCurrency=So11111111111111111111111111111111111111112" class="btn btn-secondary" style="margin-left: 1rem;" target="_blank">
+                <span class="btn-icon">🌊</span> Buy on Raydium
+            </a>
+        </div>
+    </header>
+
+    <!-- Token Overview Section -->
+    <section class="section">
+        <h2 class="section-title">About Zen AI</h2>
+        <div class="token-info-grid">
+            <div class="info-item animate-fade-in animate-delay-1">
+                <div class="info-icon">
+                    <svg viewBox="0 0 24 24" width="24" height="24">
+                        <path d="M12 2L13.09 8.26L22 9L13.09 9.74L12 16L10.91 9.74L2 9L10.91 8.26L12 2Z"/>
+                    </svg>
+                </div>
+                <div class="info-content">
+                    <h3>Vision</h3>
+                    <p>Establishing trustless protocols for peer-to-peer transactions</p>
+                </div>
+            </div>
+            
+            <div class="info-item animate-fade-in animate-delay-2">
+                <div class="info-icon">
+                    <svg viewBox="0 0 24 24" width="24" height="24">
+                        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                    </svg>
+                </div>
+                <div class="info-content">
+                    <h3>Meme Concept</h3>
+                    <p>Shiba Inu meets Quantum Physics</p>
+                </div>
+            </div>
+            
+            <div class="info-item animate-fade-in animate-delay-3">
+                <div class="info-icon">
+                    <svg viewBox="0 0 24 24" width="24" height="24">
+                        <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                    </svg>
+                </div>
+                <div class="info-content">
+                    <h3>Catalyst</h3>
+                    <p>Strategic Partnership Announcement</p>
+                </div>
+            </div>
+        </div>
+        
+        <blockquote class="token-quote animate-fade-in">
+            <p>"The future is decentralized, and it starts with you."</p>
+            <cite>- Zen AI Team</cite>
+        </blockquote>
+    </section>
+
+    <!-- Interactive Game Section -->
+    <section class="section">
+        <h2 class="section-title">Interactive Experience</h2>
+        
+        <!-- Memory Game -->
+        <div class="game-container">
+            <h3 class="game-title">🎮 Token Memory Match</h3>
+            <p>Match pairs to reveal fun facts about Zen AI!</p>
+            <div class="score-display">Score: <span id="score">0</span> | Matches: <span id="matches">0</span></div>
+            <div class="game-board" id="gameBoard"></div>
+            <div class="game-controls">
+                <button class="btn btn-primary" onclick="resetGame()">Reset Game</button>
+            </div>
+        </div>
+        
+        <!-- Interactive Elements -->
+        
+        <div class="interactive-element" onclick="triggerInteraction(0)">
+            <h4 class="interactive-title">Click to Reveal</h4>
+            <p>Click to interact with this element and discover hidden features!</p>
+        </div>
+        
+        <div class="interactive-element" onclick="triggerInteraction(1)">
+            <h4 class="interactive-title">Spin the Wheel</h4>
+            <p>Click to interact with this element and discover hidden features!</p>
+        </div>
+        
+        <div class="interactive-element" onclick="triggerInteraction(2)">
+            <h4 class="interactive-title">Treasure Hunt</h4>
+            <p>Click to interact with this element and discover hidden features!</p>
+        </div>
+        
+        <div class="interactive-element" onclick="triggerInteraction(3)">
+            <h4 class="interactive-title">Quiz Challenge</h4>
+            <p>Click to interact with this element and discover hidden features!</p>
+        </div>
+        
+        
+        <!-- Fun Facts Carousel -->
+        <div class="fun-facts">
+            <h3 class="game-title">💡 Did You Know?</h3>
+            <div class="fact-carousel">
+                <div class="fact-item active">
+                    <p>Zen AI was inspired by Shiba Inu meets Quantum Physics and has a unique token distribution model.</p>
+                </div>
+                <div class="fact-item">
+                    <p>The Zen AI team consists of experts from top tech companies and blockchain veterans.</p>
+                </div>
+                <div class="fact-item">
+                    <p>Zen AI holders automatically participate in governance decisions for protocol upgrades.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tokenomics Section -->
+    <section class="section" style="background: var(--neutral-100);">
+        <h2 class="section-title">Tokenomics</h2>
+        <div class="stats-grid">
+            <div class="stat-card animate-fade-in">
+                <div class="stat-value">123,085,820</div>
+                <div class="stat-label">Total Supply</div>
+            </div>
+            <div class="stat-card animate-fade-in animate-delay-1">
+                <div class="stat-value">Solana</div>
+                <div class="stat-label">Blockchain</div>
+            </div>
+            <div class="stat-card animate-fade-in animate-delay-2">
+                <div class="stat-value">Proof of Stake</div>
+                <div class="stat-label">Consensus</div>
+            </div>
+            <div class="stat-card animate-fade-in animate-delay-3">
+                <div class="stat-value">Deflationary</div>
+                <div class="stat-label">Supply Model</div>
+            </div>
+        </div>
+        
+        <div class="interactive-section">
+            <h3>Utility & Distribution</h3>
+            <p>Governance and staking rewards</p>
+            
+            <div class="chart-container">
+                <div class="chart-placeholder">
+                    Interactive Allocation Chart<br/>
+                    <small>(Hover to see details)</small>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Roadmap Section -->
+    <section class="section">
+        <h2 class="section-title">Roadmap</h2>
+        <div class="roadmap-container">
+            
+            <div class="roadmap-item completed animate-fade-in" style="animation-delay: 0s">
+                <div class="roadmap-phase">Phase 1</div>
+                
+                <h3 class="roadmap-title">Launch & Community Building</h3>
+                <p class="roadmap-description">Token launch, DEX listings, and community growth initiatives</p>
+                <div class="roadmap-status">✓ Completed</div>
+            </div>
+            
+            <div class="roadmap-item  animate-fade-in" style="animation-delay: 0.1s">
+                <div class="roadmap-phase">Phase 2</div>
+                
+                <h3 class="roadmap-title">Ecosystem Development</h3>
+                <p class="roadmap-description">Partnerships, integrations, and product development</p>
+                <div class="roadmap-status"> upcoming</div>
+            </div>
+            
+            <div class="roadmap-item  animate-fade-in" style="animation-delay: 0.2s">
+                <div class="roadmap-phase">Phase 3</div>
+                
+                <h3 class="roadmap-title">Global Expansion</h3>
+                <p class="roadmap-description">International markets and enterprise adoption</p>
+                <div class="roadmap-status"> upcoming</div>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="section" style="background: var(--neutral-100);">
+        <h2 class="section-title">Meet the Team</h2>
+        <div class="team-grid">
+            
+            <div class="team-member card animate-fade-in" style="animation-delay: 0s">
+                <div class="member-avatar">
+                    👤
+                </div>
+                <h3 class="member-name">Alex Johnson</h3>
+                <div class="member-role">Founder & CEO</div>
+                <p class="member-bio">10+ years in blockchain and fintech innovation</p>
+                
+            </div>
+            
+            <div class="team-member card animate-fade-in" style="animation-delay: 0.1s">
+                <div class="member-avatar">
+                    👤
+                </div>
+                <h3 class="member-name">Sam Chen</h3>
+                <div class="member-role">Lead Developer</div>
+                <p class="member-bio">Expert in Solana smart contracts and DeFi protocols</p>
+                
+            </div>
+            
+            <div class="team-member card animate-fade-in" style="animation-delay: 0.2s">
+                <div class="member-avatar">
+                    👤
+                </div>
+                <h3 class="member-name">Maria Garcia</h3>
+                <div class="member-role">Marketing Director</div>
+                <p class="member-bio">Digital marketing specialist with focus on crypto communities</p>
+                
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- Community Section -->
+    <section class="section">
+        <h2 class="section-title">Join Our Community</h2>
+        <p style="text-align: center; max-width: 600px; margin: 0 auto var(--spacing-xl);">
+            Be part of our growing community of Zen AI enthusiasts and contributors.
+        </p>
+        
+        <div class="social-links">
+            <a href="https://t.me/tokenproject10" class="social-link" aria-label="Telegram" target="_blank">
+                💬
+            </a>
+            
+            
+            <a href="#" class="social-link" aria-label="Medium" target="_blank">
+                ✍️
+            </a>
+        </div>
+        
+        <div class="newsletter-signup">
+            <h3>Stay Updated</h3>
+            <form class="newsletter-form">
+                <input type="email" placeholder="Enter your email" required>
+                <button type="submit" class="btn btn-primary">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Easter Egg -->
+    <div class="easter-egg" onclick="triggerEasterEgg()" title="Click me for a surprise!">🥚</div>
+
+    <!-- Footer -->
+    <footer class="token-footer">
+        <div class="footer-content">
+            <p>© 2026 Zen AI ($ZENA). All rights reserved.</p>
+            <p>
+                <a href="#" style="color: white; margin: 0 10px;">Privacy Policy</a> | 
+                <a href="#" style="color: white; margin: 0 10px;">Terms of Service</a> | 
+                <a href="#" style="color: white; margin: 0 10px;">Disclaimer</a>
+            </p>
+        </div>
+    </footer>
+
+    <!-- JavaScript for Interactivity -->
+    <script>
+      // Game state
+      let gameState = {
+        score: 0,
+        matches: 0,
+        flippedCards: [],
+        matchedPairs: 0,
+        totalPairs: 8
+      };
+      
+      // Initialize game
+      function initGame() {
+        const gameBoard = document.getElementById('gameBoard');
+        if (!gameBoard) return;
+        
+        // Create game tiles
+        const symbols = ['💎', '🚀', '💰', '🌐', '⚡', '🔒', '📈', '🏆'];
+        const tiles = [...symbols, ...symbols]; // Duplicate for pairs
+        
+        // Shuffle tiles
+        for (let i = tiles.length - 1; i > 0; i--) {
+          const j = Math.floor(Math.random() * (i + 1));
+          [tiles[i], tiles[j]] = [tiles[j], tiles[i]];
+        }
+        
+        // Clear board
+        gameBoard.innerHTML = '';
+        
+        // Create tiles
+        tiles.forEach((symbol, index) => {
+          const tile = document.createElement('div');
+          tile.className = 'game-tile';
+          tile.textContent = '?';
+          tile.dataset.symbol = symbol;
+          tile.dataset.index = index;
+          tile.onclick = () => flipTile(tile);
+          gameBoard.appendChild(tile);
+        });
+        
+        // Reset game state
+        gameState = {
+          score: 0,
+          matches: 0,
+          flippedCards: [],
+          matchedPairs: 0,
+          totalPairs: 8
+        };
+        
+        updateScore();
+      }
+      
+      // Flip tile
+      function flipTile(tile) {
+        // Prevent flipping if already matched or two cards are flipped
+        if (tile.classList.contains('revealed') || gameState.flippedCards.length >= 2) {
+          return;
+        }
+        
+        // Reveal tile
+        tile.textContent = tile.dataset.symbol;
+        tile.classList.add('revealed');
+        gameState.flippedCards.push(tile);
+        
+        // Check for match when two cards are flipped
+        if (gameState.flippedCards.length === 2) {
+          setTimeout(checkMatch, 500);
+        }
+      }
+      
+      // Check for match
+      function checkMatch() {
+        const [card1, card2] = gameState.flippedCards;
+        
+        if (card1.dataset.symbol === card2.dataset.symbol) {
+          // Match found
+          gameState.matches++;
+          gameState.matchedPairs++;
+          gameState.score += 100;
+          
+          // Add special effect
+          card1.style.animation = 'pulse 0.5s';
+          card2.style.animation = 'pulse 0.5s';
+          
+          // Remove event listeners
+          card1.onclick = null;
+          card2.onclick = null;
+        } else {
+          // No match, flip back
+          card1.textContent = '?';
+          card2.textContent = '?';
+          card1.classList.remove('revealed');
+          card2.classList.remove('revealed');
+          gameState.score = Math.max(0, gameState.score - 10); // Small penalty
+        }
+        
+        // Reset flipped cards
+        gameState.flippedCards = [];
+        updateScore();
+        
+        // Check win condition
+        if (gameState.matchedPairs === gameState.totalPairs) {
+          setTimeout(() => {
+            alert(`🎉 Congratulations! You won with a score of ${gameState.score}! 🎉`);
+          }, 500);
+        }
+      }
+      
+      // Update score display
+      function updateScore() {
+        const scoreElement = document.getElementById('score');
+        const matchesElement = document.getElementById('matches');
+        
+        if (scoreElement) scoreElement.textContent = gameState.score;
+        if (matchesElement) matchesElement.textContent = `${gameState.matches}/${gameState.totalPairs}`;
+      }
+      
+      // Reset game
+      function resetGame() {
+        initGame();
+      }
+      
+      // Trigger interaction
+      function triggerInteraction(index) {
+        const interactions = [
+          "🎉 You discovered a hidden feature!",
+          "🚀 Boost activated! Your engagement increased!",
+          "💎 Rare item found! +50 points",
+          "🔮 Mystery unlocked! New content revealed!",
+          "🔥 Hot streak! Double rewards for 30 seconds!"
+        ];
+        
+        const randomInteraction = interactions[Math.floor(Math.random() * interactions.length)];
+        alert(randomInteraction);
+      }
+      
+      // Trigger easter egg
+      function triggerEasterEgg() {
+        const eggs = [
+          "🥚 Congratulations! You found the golden egg! +1000 points!",
+          "🥚 Surprise! You discovered a secret feature!",
+          "🥚 Lucky! You've been entered into our monthly prize draw!",
+          "🥚 Special! You unlocked exclusive content!",
+          "🥚 Epic! You're now a VIP member of our community!"
+        ];
+        
+        const randomEgg = eggs[Math.floor(Math.random() * eggs.length)];
+        alert(randomEgg);
+      }
+      
+      // Fun facts carousel
+      function rotateFacts() {
+        const facts = document.querySelectorAll('.fact-item');
+        let currentIndex = 0;
+        
+        setInterval(() => {
+          facts[currentIndex].classList.remove('active');
+          currentIndex = (currentIndex + 1) % facts.length;
+          facts[currentIndex].classList.add('active');
+        }, 5000);
+      }
+      
+      // Initialize when page loads
+      document.addEventListener('DOMContentLoaded', () => {
+        initGame();
+        rotateFacts();
+      });
+      
+      // Tab functionality
+      document.querySelectorAll('.tab').forEach(tab => {
+        tab.addEventListener('click', () => {
+          // Remove active class from all tabs and content
+          document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+          document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+          
+          // Add active class to clicked tab
+          tab.classList.add('active');
+          
+          // Show corresponding content
+          const tabId = tab.getAttribute('data-tab');
+          document.getElementById(tabId).classList.add('active');
+        });
+      });
+      
+      // Newsletter form submission
+      document.querySelector('.newsletter-form')?.addEventListener('submit', (e) => {
+        e.preventDefault();
+        const email = e.target.querySelector('input[type="email"]').value;
+        alert(`Thank you for subscribing with ${email}! Welcome to the Zen AI family! 🎉`);
+        e.target.reset();
+      });
+      
+      // Animation on scroll
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('animate-fade-in');
+          }
+        });
+      }, { threshold: 0.1 });
+      
+      document.querySelectorAll('.animate-on-scroll').forEach(el => {
+        observer.observe(el);
+      });
+    </script>
+</body>
+</html>

@@ -1,0 +1,1299 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GammaLink - $GAML Token | Interactive Experience</title>
+    <meta name="description" content="GammaLink ($GAML) - Powering the Next Generation of Web3. Developing sustainable economic models for token holders">
+    <meta name="keywords" content="GAML, GammaLink, Solana, cryptocurrency, token, DeFi, Energy, interactive, gamified">
+    <meta name="author" content="GammaLink">
+    <meta property="og:title" content="GammaLink ($GAML) - Interactive Experience">
+    <meta property="og:description" content="Powering the Next Generation of Web3. Developing sustainable economic models for token holders">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.tokenproject8.io">
+    <meta property="og:image" content="https://picsum.photos/200/300?random=3">
+    <link rel="canonical" href="https://www.tokenproject8.io">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20100%20100%22%3E%0A%20%20%20%20%20%20%3Ccircle%20cx%3D%2250%22%20cy%3D%2250%22%20r%3D%2245%22%20fill%3D%22%2300FF4C%22%2F%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2250%22%20y%3D%2265%22%20font-family%3D%22Arial%22%20font-size%3D%2240%22%20fill%3D%22white%22%20text-anchor%3D%22middle%22%3ET%3C%2Ftext%3E%0A%20%20%20%20%3C%2Fsvg%3E">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <style>
+      :root {
+  /* Primary Brand Colors */
+  --primary-50: #effff0;
+  --primary-100: #d9ffe1;
+  --primary-200: #b3ffc4;
+  --primary-300: #7dff9d;
+  --primary-400: #3dff6b;
+  --primary-500: #00ff4c;
+  --primary-600: #00db3d;
+  --primary-700: #00b833;
+  --primary-800: #008f2c;
+  --primary-900: #006622;
+  
+  /* Secondary Brand Colors */
+  --secondary-50: #f0f9ff;
+  --secondary-100: #dcf0ff;
+  --secondary-200: #bfe2ff;
+  --secondary-300: #8fd1ff;
+  --secondary-400: #59b8ff;
+  --secondary-500: #2e9cff;
+  --secondary-600: #1879ff;
+  --secondary-700: #0c5fff;
+  --secondary-800: #0e4be6;
+  --secondary-900: #103fbf;
+  
+  /* Accent Colors */
+  --accent-purple: #8b5cf6;
+  --accent-pink: #ec4899;
+  --accent-yellow: #f59e0b;
+  --accent-orange: #f97316;
+  
+  /* Neutral Colors */
+  --neutral-50: #f8fafc;
+  --neutral-100: #f1f5f9;
+  --neutral-200: #e2e8f0;
+  --neutral-300: #cbd5e1;
+  --neutral-400: #94a3b8;
+  --neutral-500: #64748b;
+  --neutral-600: #475569;
+  --neutral-700: #334155;
+  --neutral-800: #1e293b;
+  --neutral-900: #0f172a;
+  
+  /* Semantic Colors */
+  --success: #10b981;
+  --warning: #f59e0b;
+  --error: #ef4444;
+  --info: #3b82f6;
+  
+  /* Gradients */
+  --gradient-primary: linear-gradient(135deg, var(--primary-500), var(--secondary-500));
+  --gradient-secondary: linear-gradient(135deg, var(--accent-purple), var(--accent-pink));
+  --gradient-accent: linear-gradient(135deg, var(--accent-orange), var(--accent-yellow));
+  
+  /* Shadows */
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  
+  /* Typography */
+  --font-primary: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+  --font-heading: 'Space Grotesk', 'Inter', 'Helvetica Neue', Arial, sans-serif;
+  --font-mono: 'Fira Code', 'JetBrains Mono', monospace;
+  
+  /* Spacing */
+  --spacing-xs: 0.25rem;
+  --spacing-sm: 0.5rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 1.5rem;
+  --spacing-xl: 2rem;
+  --spacing-2xl: 3rem;
+  --spacing-3xl: 4rem;
+  
+  /* Border Radius */
+  --radius-sm: 0.25rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 0.75rem;
+  --radius-xl: 1rem;
+  --radius-full: 9999px;
+  
+  /* Transitions */
+  --transition-fast: 150ms ease-in-out;
+  --transition-normal: 300ms ease-in-out;
+  --transition-slow: 500ms ease-in-out;
+}
+
+/* Dark Theme Variables */
+[data-theme="dark"] {
+  --neutral-50: #0f172a;
+  --neutral-100: #1e293b;
+  --neutral-200: #334155;
+  --neutral-300: #475569;
+  --neutral-400: #64748b;
+  --neutral-500: #94a3b8;
+  --neutral-600: #cbd5e1;
+  --neutral-700: #e2e8f0;
+  --neutral-800: #f1f5f9;
+  --neutral-900: #f8fafc;
+}
+      /* Global Styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-primary);
+  background-color: var(--neutral-50);
+  color: var(--neutral-800);
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(0, 255, 76, 0.7);
+  }
+  70% {
+    transform: scale(1.02);
+    box-shadow: 0 0 0 10px rgba(0, 255, 76, 0);
+  }
+  100% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(0, 255, 76, 0);
+  }
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@keyframes gradientShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Header Styles */
+.token-header {
+  background: var(--gradient-primary);
+  background-size: 200% 200%;
+  animation: gradientShift 8s ease infinite;
+  color: white;
+  padding: var(--spacing-xl) var(--spacing-md);
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.token-header::before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 70%);
+  animation: rotate 20s linear infinite;
+  z-index: 0;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.token-name {
+  font-family: var(--font-heading);
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: var(--spacing-sm);
+  text-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  position: relative;
+  z-index: 1;
+}
+
+.token-symbol {
+  font-size: 1.5rem;
+  font-weight: 600;
+  background: rgba(255, 255, 255, 0.2);
+  padding: var(--spacing-xs) var(--spacing-md);
+  border-radius: var(--radius-full);
+  display: inline-block;
+  backdrop-filter: blur(10px);
+  margin-bottom: var(--spacing-lg);
+}
+
+.token-slogan {
+  font-size: 1.25rem;
+  max-width: 600px;
+  margin: 0 auto var(--spacing-md);
+  font-weight: 500;
+  position: relative;
+  z-index: 1;
+}
+
+/* Section Styles */
+.section {
+  padding: var(--spacing-2xl) var(--spacing-md);
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.section-title {
+  font-family: var(--font-heading);
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: var(--spacing-xl);
+  position: relative;
+  display: inline-block;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.section-title::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 4px;
+  background: var(--gradient-primary);
+  border-radius: var(--radius-full);
+}
+
+/* Card Styles */
+.card {
+  background: white;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-lg);
+  padding: var(--spacing-lg);
+  transition: transform var(--transition-normal), box-shadow var(--transition-normal);
+  margin-bottom: var(--spacing-lg);
+  position: relative;
+  overflow: hidden;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-xl);
+}
+
+.card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: var(--gradient-primary);
+}
+
+.card-title {
+  font-family: var(--font-heading);
+  font-size: 1.5rem;
+  margin-bottom: var(--spacing-md);
+  color: var(--neutral-800);
+}
+
+/* Token Info Grid */
+.token-info-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: var(--spacing-lg);
+  margin-bottom: var(--spacing-2xl);
+}
+
+.info-item {
+  display: flex;
+  align-items: center;
+  padding: var(--spacing-md);
+  background: var(--neutral-100);
+  border-radius: var(--radius-md);
+  transition: var(--transition-fast);
+}
+
+.info-item:hover {
+  background: var(--neutral-200);
+  transform: translateX(5px);
+}
+
+.info-icon {
+  width: 50px;
+  height: 50px;
+  background: var(--gradient-primary);
+  border-radius: var(--radius-full);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: var(--spacing-md);
+  flex-shrink: 0;
+}
+
+.info-icon svg {
+  width: 24px;
+  height: 24px;
+  fill: white;
+}
+
+.info-content h3 {
+  font-size: 1.1rem;
+  margin-bottom: var(--spacing-xs);
+  color: var(--neutral-800);
+}
+
+.info-content p {
+  font-size: 0.9rem;
+  color: var(--neutral-600);
+}
+
+/* Stats Section */
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: var(--spacing-lg);
+  margin: var(--spacing-xl) 0;
+}
+
+.stat-card {
+  text-align: center;
+  padding: var(--spacing-lg);
+  background: white;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+  transition: var(--transition-normal);
+}
+
+.stat-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-lg);
+}
+
+.stat-value {
+  font-size: 2rem;
+  font-weight: 700;
+  background: var(--gradient-primary);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: var(--spacing-xs);
+}
+
+.stat-label {
+  font-size: 1rem;
+  color: var(--neutral-600);
+  font-weight: 500;
+}
+
+/* Interactive Elements */
+.interactive-section {
+  background: var(--neutral-100);
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-xl);
+  margin: var(--spacing-2xl) 0;
+  position: relative;
+}
+
+.interactive-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: var(--gradient-secondary);
+  border-radius: var(--radius-lg) var(--radius-lg) 0 0;
+}
+
+.tabs {
+  display: flex;
+  border-bottom: 1px solid var(--neutral-300);
+  margin-bottom: var(--spacing-lg);
+}
+
+.tab {
+  padding: var(--spacing-md) var(--spacing-lg);
+  cursor: pointer;
+  font-weight: 500;
+  position: relative;
+  transition: var(--transition-fast);
+}
+
+.tab.active {
+  color: var(--primary-600);
+}
+
+.tab.active::after {
+  content: "";
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: var(--primary-500);
+  border-radius: var(--radius-full);
+}
+
+.tab-content {
+  display: none;
+}
+
+.tab-content.active {
+  display: block;
+  animation: fadeIn 0.5s ease forwards;
+}
+
+/* Chart Container */
+.chart-container {
+  height: 300px;
+  background: white;
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-lg);
+  box-shadow: var(--shadow-md);
+  margin: var(--spacing-lg) 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.chart-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  background: var(--neutral-100);
+  border-radius: var(--radius-md);
+  color: var(--neutral-500);
+  font-style: italic;
+}
+
+/* Button Styles */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--spacing-sm) var(--spacing-lg);
+  border-radius: var(--radius-md);
+  font-weight: 600;
+  cursor: pointer;
+  transition: var(--transition-fast);
+  border: none;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+.btn-primary {
+  background: var(--gradient-primary);
+  color: white;
+  box-shadow: var(--shadow-md);
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-lg);
+}
+
+.btn-secondary {
+  background: var(--neutral-200);
+  color: var(--neutral-800);
+}
+
+.btn-secondary:hover {
+  background: var(--neutral-300);
+}
+
+.btn-icon {
+  margin-right: var(--spacing-sm);
+}
+
+/* Social Links */
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: var(--spacing-md);
+  margin: var(--spacing-xl) 0;
+}
+
+.social-link {
+  width: 50px;
+  height: 50px;
+  border-radius: var(--radius-full);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--neutral-200);
+  color: var(--neutral-700);
+  transition: var(--transition-fast);
+  text-decoration: none;
+}
+
+.social-link:hover {
+  transform: translateY(-3px);
+  background: var(--gradient-primary);
+  color: white;
+  box-shadow: var(--shadow-md);
+}
+
+/* Footer */
+.token-footer {
+  background: var(--neutral-900);
+  color: white;
+  padding: var(--spacing-xl) var(--spacing-md);
+  text-align: center;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .token-name {
+    font-size: 2rem;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+  }
+  
+  .token-info-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .tabs {
+    flex-direction: column;
+  }
+}
+
+/* Animation Utilities */
+.animate-fade-in {
+  animation: fadeIn 0.8s ease forwards;
+}
+
+.animate-delay-1 {
+  animation-delay: 0.2s;
+}
+
+.animate-delay-2 {
+  animation-delay: 0.4s;
+}
+
+.animate-delay-3 {
+  animation-delay: 0.6s;
+}
+
+.animate-pulse {
+  animation: pulse 2s infinite;
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+      
+      /* Additional Game Styles */
+      .game-container {
+        background: var(--gradient-primary);
+        border-radius: var(--radius-lg);
+        padding: var(--spacing-lg);
+        margin: var(--spacing-xl) 0;
+        text-align: center;
+        box-shadow: var(--shadow-lg);
+        position: relative;
+        overflow: hidden;
+      }
+      
+      .game-container::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 4px;
+        background: var(--gradient-secondary);
+      }
+      
+      .game-title {
+        font-family: var(--font-heading);
+        color: white;
+        margin-bottom: var(--spacing-md);
+        text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+      }
+      
+      .game-board {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: var(--spacing-sm);
+        margin: var(--spacing-md) 0;
+      }
+      
+      .game-cell {
+        aspect-ratio: 1;
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: var(--radius-md);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: var(--font-heading);
+        font-weight: bold;
+        color: white;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        backdrop-filter: blur(10px);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+      }
+      
+      .game-cell:hover {
+        background: rgba(255, 255, 255, 0.2);
+        transform: translateY(-2px);
+      }
+      
+      .game-cell.revealed {
+        background: rgba(255, 255, 255, 0.3);
+        box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      }
+      
+      .reward-popup {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: var(--gradient-primary);
+        padding: var(--spacing-lg);
+        border-radius: var(--radius-lg);
+        box-shadow: var(--shadow-xl);
+        z-index: 1000;
+        text-align: center;
+        border: 2px solid var(--color-accent);
+        animation: popup 0.5s ease;
+      }
+      
+      @keyframes popup {
+        0% { transform: translate(-50%, -50%) scale(0.5); opacity: 0; }
+        100% { transform: translate(-50%, -50%) scale(1); opacity: 1; }
+      }
+      
+      /* Interactive Elements */
+      .interactive-section {
+        background: linear-gradient(135deg, var(--color-primary), var(--color-secondary));
+        border-radius: var(--radius-lg);
+        padding: var(--spacing-lg);
+        margin: var(--spacing-xl) 0;
+        text-align: center;
+        box-shadow: var(--shadow-lg);
+      }
+      
+      .spin-wheel {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        background: conic-gradient(
+          #ff6b6b 0deg 90deg,
+          #4ecdc4 90deg 180deg,
+          #45b7d1 180deg 270deg,
+          #96ceb4 270deg 360deg
+        );
+        margin: 0 auto var(--spacing-md);
+        position: relative;
+        box-shadow: 0 0 20px rgba(0,0,0,0.3);
+        cursor: pointer;
+        transition: transform 0.3s ease;
+      }
+      
+      .spin-wheel:hover {
+        transform: scale(1.05);
+      }
+      
+      .spin-wheel::before {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 30px;
+        height: 30px;
+        background: white;
+        border-radius: 50%;
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);
+      }
+      
+      .spin-wheel::after {
+        content: "SPIN";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-weight: bold;
+        font-size: 12px;
+      }
+      
+      /* Treasure Hunt */
+      .treasure-map {
+        background: linear-gradient(45deg, #8B4513, #D2691E);
+        border-radius: var(--radius-lg);
+        padding: var(--spacing-lg);
+        margin: var(--spacing-md) 0;
+        position: relative;
+        overflow: hidden;
+        box-shadow: var(--shadow-lg);
+      }
+      
+      .treasure-map::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: 
+          radial-gradient(circle at 20% 30%, transparent 10px, currentColor 10px, currentColor 12px, transparent 12px),
+          radial-gradient(circle at 80% 70%, transparent 15px, currentColor 15px, currentColor 17px, transparent 17px);
+        opacity: 0.1;
+      }
+      
+      .x-mark {
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        background: gold;
+        transform: rotate(45deg);
+        cursor: pointer;
+        transition: transform 0.3s ease;
+        box-shadow: 0 0 10px rgba(255,215,0,0.8);
+      }
+      
+      .x-mark:hover {
+        transform: rotate(45deg) scale(1.2);
+      }
+      
+      /* Quiz Challenge */
+      .quiz-container {
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: var(--radius-lg);
+        padding: var(--spacing-md);
+        margin: var(--spacing-md) 0;
+        backdrop-filter: blur(10px);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+      }
+      
+      .quiz-question {
+        font-weight: 600;
+        margin-bottom: var(--spacing-sm);
+        color: white;
+      }
+      
+      .quiz-options {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: var(--spacing-xs);
+      }
+      
+      .quiz-option {
+        background: rgba(255, 255, 255, 0.05);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: var(--radius-md);
+        padding: var(--spacing-sm);
+        color: white;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        text-align: left;
+      }
+      
+      .quiz-option:hover {
+        background: rgba(255, 255, 255, 0.1);
+        border-color: var(--color-accent);
+      }
+      
+      .quiz-option.correct {
+        background: rgba(76, 175, 80, 0.2);
+        border-color: #4CAF50;
+      }
+      
+      .quiz-option.incorrect {
+        background: rgba(244, 67, 54, 0.2);
+        border-color: #f44336;
+      }
+      
+      /* Team Section Styling */
+      .team-member {
+        background: rgba(255, 255, 255, 0.05);
+        border-radius: var(--radius-lg);
+        padding: var(--spacing-md);
+        margin-bottom: var(--spacing-md);
+        backdrop-filter: blur(10px);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        transition: transform 0.3s ease;
+      }
+      
+      .team-member:hover {
+        transform: translateY(-5px);
+        background: rgba(255, 255, 255, 0.1);
+      }
+      
+      .team-avatar {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        margin: 0 auto var(--spacing-sm);
+        background: linear-gradient(45deg, var(--color-primary), var(--color-secondary));
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 32px;
+        font-weight: bold;
+        color: white;
+      }
+      
+      /* Roadmap Styling */
+      .roadmap-item {
+        background: rgba(255, 255, 255, 0.05);
+        border-radius: var(--radius-lg);
+        padding: var(--spacing-md);
+        margin-bottom: var(--spacing-md);
+        backdrop-filter: blur(10px);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        position: relative;
+        overflow: hidden;
+      }
+      
+      .roadmap-item.completed::before {
+        content: "✓";
+        position: absolute;
+        top: var(--spacing-sm);
+        right: var(--spacing-sm);
+        background: #4CAF50;
+        width: 24px;
+        height: 24px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 12px;
+        font-weight: bold;
+      }
+      
+      .roadmap-phase {
+        display: inline-block;
+        background: var(--gradient-primary);
+        padding: var(--spacing-xs) var(--spacing-sm);
+        border-radius: var(--radius-md);
+        font-size: 12px;
+        font-weight: 600;
+        margin-bottom: var(--spacing-xs);
+      }
+      
+      /* Attributes Grid */
+      .attributes-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: var(--spacing-md);
+        margin: var(--spacing-xl) 0;
+      }
+      
+      .attribute-card {
+        background: rgba(255, 255, 255, 0.05);
+        border-radius: var(--radius-lg);
+        padding: var(--spacing-md);
+        text-align: center;
+        backdrop-filter: blur(10px);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+      }
+      
+      .attribute-icon {
+        font-size: 24px;
+        margin-bottom: var(--spacing-sm);
+      }
+      
+      /* Responsive Design */
+      @media (max-width: 768px) {
+        .game-board {
+          grid-template-columns: repeat(3, 1fr);
+        }
+        
+        .attributes-grid {
+          grid-template-columns: 1fr;
+        }
+        
+        .team-member, .roadmap-item {
+          margin-bottom: var(--spacing-sm);
+        }
+      }
+      
+      @media (max-width: 480px) {
+        .game-board {
+          grid-template-columns: repeat(2, 1fr);
+        }
+        
+        .spin-wheel {
+          width: 150px;
+          height: 150px;
+        }
+      }
+    </style>
+</head>
+<body>
+    <header class="hero">
+        <div class="container">
+            <div class="logo-container">
+                <?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circle -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00FF4C;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2E9CFF;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="tokenGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8B5CF6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#EC4899;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3" result="blur"/>
+      <feFlood flood-color="#00FF4C" flood-opacity="0.5" result="glowColor"/>
+      <feComposite in="glowColor" in2="blur" operator="in" result="glow"/>
+      <feBlend in="SourceGraphic" in2="glow" mode="screen"/>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <circle cx="100" cy="100" r="95" fill="url(#bgGradient)" />
+  
+  <!-- Token Shape -->
+  <g filter="url(#glow)">
+    <polygon points="100,50 130,85 120,125 80,125 70,85" fill="url(#tokenGradient)" />
+    
+    <!-- Inner Details -->
+    <circle cx="100" cy="90" r="15" fill="white" opacity="0.3"/>
+    <circle cx="100" cy="90" r="8" fill="white" opacity="0.6"/>
+  </g>
+  
+  <!-- Animated Rings -->
+  <circle cx="100" cy="100" r="70" fill="none" stroke="white" stroke-width="2" stroke-dasharray="10,5" opacity="0.3">
+    <animateTransform attributeName="transform" type="rotate" from="0 100 100" to="360 100 100" dur="20s" repeatCount="indefinite"/>
+  </circle>
+  
+  <circle cx="100" cy="100" r="50" fill="none" stroke="white" stroke-width="1" stroke-dasharray="5,3" opacity="0.2">
+    <animateTransform attributeName="transform" type="rotate" from="360 100 100" to="0 100 100" dur="15s" repeatCount="indefinite"/>
+  </circle>
+</svg>
+            </div>
+            <h1 class="hero-title">GammaLink <span class="highlight">$GAML</span></h1>
+            <p class="hero-subtitle">Powering the Next Generation of Web3</p>
+            <p class="hero-description">Developing sustainable economic models for token holders</p>
+            <div class="hero-buttons">
+                <a href="https://t.me/tokenproject8" class="btn btn-primary">Join Community</a>
+                <a href="#tokenomics" class="btn btn-secondary">View Tokenomics</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- Meme Concept Section -->
+        <section class="section">
+            <h2 class="section-title">Meme Concept</h2>
+            <div class="card">
+                <p>Doge wearing a Space Helmet</p>
+                <p><strong>Catalyst:</strong> Strategic Partnership Announcement</p>
+                <blockquote class="quote">
+                    <p>"To the moon and beyond!"</p>
+                </blockquote>
+            </div>
+        </section>
+
+        <!-- Branding Section -->
+        <section class="section">
+            <h2 class="section-title">Branding</h2>
+            <div class="card">
+                <p>Cyberpunk Neon</p>
+            </div>
+        </section>
+
+        <!-- Attributes Grid -->
+        <section class="section">
+            <h2 class="section-title">Token Attributes</h2>
+            <div class="attributes-grid">
+                <div class="attribute-card">
+                    <div class="attribute-icon">⚙️</div>
+                    <h3>Utility</h3>
+                    <p>Governance and staking rewards</p>
+                </div>
+                <div class="attribute-card">
+                    <div class="attribute-icon">🔗</div>
+                    <h3>Blockchain</h3>
+                    <p>Solana</p>
+                </div>
+                <div class="attribute-card">
+                    <div class="attribute-icon">🔒</div>
+                    <h3>Consensus</h3>
+                    <p>Proof of Stake</p>
+                </div>
+                <div class="attribute-card">
+                    <div class="attribute-icon">📉</div>
+                    <h3>Supply Model</h3>
+                    <p>Deflationary</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tokenomics Section -->
+        <section id="tokenomics" class="section">
+            <h2 class="section-title">Tokenomics</h2>
+            <div class="card">
+                <h3>Total Supply: 700,086,076 GAML</h3>
+                <p>Mint Address: To be deployed</p>
+            </div>
+        </section>
+
+        <!-- Gamification Section -->
+        
+        <section class="section">
+            <h2 class="section-title">Interactive Token Game</h2>
+            
+            <!-- Click to Reveal Game -->
+            <div class="interactive-section">
+                <h3>Click to Reveal</h3>
+                <p>Click on the cells to reveal hidden rewards!</p>
+                <div class="game-container">
+                    <div class="game-board" id="reveal-game">
+                        <div class="game-cell" data-index="0">?</div><div class="game-cell" data-index="1">?</div><div class="game-cell" data-index="2">?</div><div class="game-cell" data-index="3">?</div><div class="game-cell" data-index="4">?</div><div class="game-cell" data-index="5">?</div><div class="game-cell" data-index="6">?</div><div class="game-cell" data-index="7">?</div><div class="game-cell" data-index="8">?</div><div class="game-cell" data-index="9">?</div><div class="game-cell" data-index="10">?</div><div class="game-cell" data-index="11">?</div><div class="game-cell" data-index="12">?</div><div class="game-cell" data-index="13">?</div><div class="game-cell" data-index="14">?</div><div class="game-cell" data-index="15">?</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Spin the Wheel Game -->
+            
+            <div class="interactive-section">
+                <h3>Spin the Wheel</h3>
+                <p>Try your luck and spin for rewards!</p>
+                <div class="game-container">
+                    <div class="spin-wheel" id="spin-wheel"></div>
+                    <button class="btn btn-primary" id="spin-button">SPIN NOW</button>
+                </div>
+            </div>
+            
+
+            <!-- Treasure Hunt Game -->
+            
+            <div class="interactive-section">
+                <h3>Treasure Hunt</h3>
+                <p>Find the hidden treasure on the map!</p>
+                <div class="game-container">
+                    <div class="treasure-map" id="treasure-map" style="height: 300px; position: relative;">
+                        <!-- X marks will be added dynamically -->
+                    </div>
+                </div>
+            </div>
+            
+
+            <!-- Quiz Challenge -->
+            
+            <div class="interactive-section">
+                <h3>Quiz Challenge</h3>
+                <p>Test your knowledge about GammaLink!</p>
+                <div class="game-container">
+                    <div class="quiz-container">
+                        <div class="quiz-question">What blockchain is GammaLink built on?</div>
+                        <div class="quiz-options">
+                            <div class="quiz-option" data-answer="wrong">Bitcoin</div>
+                            <div class="quiz-option" data-answer="wrong">Ethereum</div>
+                            <div class="quiz-option" data-answer="correct">Solana</div>
+                            <div class="quiz-option" data-answer="wrong">Polygon</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+        
+
+        <!-- Easter Eggs Section -->
+        
+        <section class="section">
+            <h2 class="section-title">Secret Easter Eggs</h2>
+            <div class="card">
+                <p>Discover hidden surprises throughout the website!</p>
+                <ul>
+                    
+                    <li><strong>konamiCode:</strong> Exclusive NFT Airdrop</li>
+                    
+                </ul>
+            </div>
+        </section>
+        
+
+        <!-- Roadmap Section -->
+        <section class="section">
+            <h2 class="section-title">Roadmap</h2>
+            <div class="roadmap">
+                
+                <div class="roadmap-item completed">
+                    <span class="roadmap-phase">Phase 1</span>
+                    <h3>Launch & Community Building</h3>
+                    <p>Token launch, DEX listings, and community growth initiatives</p>
+                    
+                </div>
+                
+                <div class="roadmap-item ">
+                    <span class="roadmap-phase">Phase 2</span>
+                    <h3>Ecosystem Development</h3>
+                    <p>Partnerships, integrations, and product development</p>
+                    
+                </div>
+                
+                <div class="roadmap-item ">
+                    <span class="roadmap-phase">Phase 3</span>
+                    <h3>Global Expansion</h3>
+                    <p>International markets and enterprise adoption</p>
+                    
+                </div>
+                
+            </div>
+        </section>
+
+        <!-- Team Section -->
+        <section class="section">
+            <h2 class="section-title">Team</h2>
+            <div class="team">
+                
+                <div class="team-member">
+                    <div class="team-avatar">A</div>
+                    <h3>Alex Johnson</h3>
+                    <p class="team-role">Founder & CEO</p>
+                    <p>10+ years in blockchain and fintech innovation</p>
+                    
+                </div>
+                
+                <div class="team-member">
+                    <div class="team-avatar">S</div>
+                    <h3>Sam Chen</h3>
+                    <p class="team-role">Lead Developer</p>
+                    <p>Expert in Solana smart contracts and DeFi protocols</p>
+                    
+                </div>
+                
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-links">
+                <a href="https://www.tokenproject8.io" target="_blank">🌐 Website</a>
+                <a href="https://t.me/tokenproject8" target="_blank">💬 Telegram</a>
+                
+                
+            </div>
+            <p>&copy; 2026 GammaLink. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+      // Click to Reveal Game
+      document.querySelectorAll('#reveal-game .game-cell').forEach(cell => {
+        cell.addEventListener('click', function() {
+          if (!this.classList.contains('revealed')) {
+            this.classList.add('revealed');
+            const rewards = ['🎁', '💎', '💰', '⭐', '🔥', '🚀'];
+            const randomReward = rewards[Math.floor(Math.random() * rewards.length)];
+            this.textContent = randomReward;
+            
+            // Show reward popup
+            const popup = document.createElement('div');
+            popup.className = 'reward-popup';
+            popup.innerHTML = `<h3>You found a reward!</h3><p>${randomReward}</p>`;
+            document.body.appendChild(popup);
+            
+            setTimeout(() => {
+              document.body.removeChild(popup);
+            }, 2000);
+          }
+        });
+      });
+
+      // Spin the Wheel Game
+      const spinButton = document.getElementById('spin-button');
+      if (spinButton) {
+        spinButton.addEventListener('click', function() {
+          const wheel = document.getElementById('spin-wheel');
+          const spins = 5 + Math.random() * 5;
+          const extraDegrees = Math.random() * 360;
+          const totalDegrees = spins * 360 + extraDegrees;
+          
+          wheel.style.transform = `rotate(${totalDegrees}deg)`;
+          wheel.style.transition = 'transform 3s cubic-bezier(0.2, 0.8, 0.3, 1)';
+          
+          setTimeout(() => {
+            const rewards = ['100 Tokens', 'NFT Airdrop', '50% Bonus', 'Exclusive Access'];
+            const randomReward = rewards[Math.floor(Math.random() * rewards.length)];
+            alert(`Congratulations! You won: ${randomReward}`);
+          }, 3000);
+        });
+      }
+
+      // Treasure Hunt Game
+      const treasureMap = document.getElementById('treasure-map');
+      if (treasureMap) {
+        // Add X marks to the map
+        for (let i = 0; i < 5; i++) {
+          const xMark = document.createElement('div');
+          xMark.className = 'x-mark';
+          xMark.style.left = `${10 + Math.random() * 80}%`;
+          xMark.style.top = `${10 + Math.random() * 80}%`;
+          xMark.addEventListener('click', function() {
+            alert('🎉 You found the treasure! +1000 bonus tokens!');
+            this.style.background = 'gold';
+            this.style.boxShadow = '0 0 20px gold';
+          });
+          treasureMap.appendChild(xMark);
+        }
+      }
+
+      // Quiz Challenge
+      document.querySelectorAll('.quiz-option').forEach(option => {
+        option.addEventListener('click', function() {
+          if (this.dataset.answer === 'correct') {
+            this.classList.add('correct');
+            alert('🎉 Correct! Well done!');
+          } else {
+            this.classList.add('incorrect');
+            alert('❌ Incorrect. Try again!');
+          }
+        });
+      });
+
+      // Konami Code Easter Egg
+      const konamiCode = ['ArrowUp', 'ArrowUp', 'ArrowDown', 'ArrowDown', 'ArrowLeft', 'ArrowRight', 'ArrowLeft', 'ArrowRight', 'b', 'a'];
+      let konamiIndex = 0;
+
+      document.addEventListener('keydown', function(e) {
+        if (e.key === konamiCode[konamiIndex]) {
+          konamiIndex++;
+          if (konamiIndex === konamiCode.length) {
+            alert('🎉 Konami Code Activated! 🎉\nYou've unlocked: Exclusive NFT Airdrop!');
+            konamiIndex = 0;
+          }
+        } else {
+          konamiIndex = 0;
+        }
+      });
+    </script>
+</body>
+</html>
